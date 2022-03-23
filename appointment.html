@@ -22,12 +22,17 @@
 
 
         <main>
-            <p>Name:</p>
-            <p>_______________________________________________</p>
-            <p>Date of Surgery:</p>
-            <p>XX/XX/XXXX</p>
-            <p>Phone: or Email:</p>
-            <p>XXX-XXX-XXXX / example@host.com</p>
+            <form action="mailto:lgnrampey@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm">
+                <label for="name">Name:</label><br><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="date">Date of Surgery:</label><br><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Submit">
+
+            </form>
         </main>
 
         <footer>
